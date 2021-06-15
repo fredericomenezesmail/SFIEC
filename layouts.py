@@ -14,8 +14,8 @@ colors = {
 
 via = pd.read_excel('app/static/d_via.xlsx')
 sh2 = pd.read_excel('app/static/d_sh2.xlsx')
-# comex = pd.read_csv('app/static/f_comex.csv')
-comex = pd.read_csv('app/static/f_comex_1000.csv')
+comex = pd.read_csv('app/static/f_comex.csv')
+# comex = pd.read_csv('app/static/f_comex_1000.csv')
 
 comexSH2 = pd.merge(sh2, comex, on="COD_NCM")
 
